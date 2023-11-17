@@ -6,6 +6,7 @@ Version 1.0
 This file is meant to demonstrate the use of arrays.
 Note that the size of the array stays the same.
     There is no simple way to change this.
+Note that if using <array>, you must pass array by reference.
 */
 #include <iostream>
 #include <array>
@@ -14,7 +15,7 @@ using namespace std;
 
 //prints space-seperated values of array
 template <size_t size>
-void print_array(array<int, size>& arr) {
+void print_array(array<int, size> arr) {
     for (int i=0; i<size; i++) {
         cout << arr[i] << " ";
     }
@@ -23,7 +24,7 @@ void print_array(array<int, size>& arr) {
 
 //sets all values in array to sequential values beginning at int start
 template <size_t size>
-void initialize_array(array<int, size>& arr, int start) {
+void initialize_array(array<int, size> &arr, int start) {
     for (int i=0; i<size; i++) {
         arr[i] = start;
         start++;
