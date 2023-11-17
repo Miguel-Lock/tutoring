@@ -16,8 +16,8 @@ int fun(int a, int b) {
     cout << "a: " << a << endl;
     cout << "b: " << b << endl;
 
-    a += 10;
-    b += 10;
+    a = a + 10;
+    b = b + 10;
 
     cout << "\n\nIn function fun() after operations. Will return a.\n";
     cout << "a: " << a << endl;

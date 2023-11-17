@@ -16,8 +16,8 @@ int fun(int a, int *miguelPtr) {
     cout << "a: " << a << endl;
     cout << "*miguelPtr: " << *miguelPtr << endl;
 
-    a += 10;
-    *miguelPtr += 10;
+    a = a + 10;
+    *miguelPtr = *miguelPtr + 10;
 
     cout << "\n\nIn function fun() after operations. Will return a.\n";
     cout << "a: " << a << endl;
