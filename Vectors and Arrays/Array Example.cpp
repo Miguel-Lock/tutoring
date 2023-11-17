@@ -1,3 +1,12 @@
+/*
+Miguel Lock
+Version 1.0
+11-17-23
+
+This file is meant to demonstrate the use of arrays.
+Note that the size of the array stays the same.
+    There is no simple way to change this.
+*/
 #include <iostream>
 #include <array>
 
