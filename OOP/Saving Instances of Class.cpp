@@ -40,6 +40,7 @@ void add_character() {
 }
 
 void display_characters() {
+    cout << endl << endl;
     for(int i=0; i<characterVector.size(); i++) {
         cout << characterVector[i].name << "\nXP: " << characterVector[i].XP << " HP: " << characterVector[i].HP << endl << endl;
     }
